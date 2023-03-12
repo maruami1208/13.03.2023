@@ -1,0 +1,105 @@
+body {
+    background-color: #a808e248;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-left: 10%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    background-color: #d18cf1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(172, 11, 180, 0.984);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    
+  }
+  
+  .form h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .form input[type="text"],
+  .form input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b738ba;
+    color: #333;
+  }
+  
+  .form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9331e3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .form button[type="submit"]:hover {
+    background-color: #470470;
+  }
+  .submit {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(to bottom, #c64ce8, #9116c1);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submit:hover {
+    background: linear-gradient(to bottom, #b016c1, #b74ce8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .submit:active {
+    transform: translateY(2px);
+  }
+  #name, #password {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #name:focus, #password:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(219, 76, 232, 0.8);
+  }
+  
+  #name::placeholder, #password::placeholder {
+    color: #d6cbd8;
+  }
+  
+  
+    
